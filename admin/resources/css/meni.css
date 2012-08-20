@@ -1,0 +1,80 @@
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 99%;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+	margin:5px;
+	padding:5px;
+	background:url(../images/resize.gif) bottom right no-repeat #F3F3F3;
+	text-align: center;
+	font-weight:bold;
+	color:#0b55c4;
+	
+	/*-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;*/
+	
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+
+ul#menu li ul li a {
+	margin:0px;
+	margin-left:4px;
+	background: #FFF;
+	border-bottom:1px dotted #CCC;
+	border-collapse:collapse;
+	color: #000;
+	padding-left: 10px;
+	float:left;
+	width:93%;
+	text-align:left;
+	padding:4px 8px;
+	font-size:8pt;
+  
+	-webkit-border-radius: 0em;
+	-moz-border-radius: 0em;
+	-webkit-box-shadow: 0 0px 0px;
+	-moz-box-shadow: 0 0px 0px;
+	clear:both;
+}
+
+ul#menu li ul li a:hover {
+	background:#f0f5ff;
+	color:#000
+}
+
+.datum {
+	background:url(../images/datum.png) no-repeat right;
+	padding-right:21px;
+	color:#666;
+	float:right;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+
+* html .clearfix {
+	height: 1%;
+}

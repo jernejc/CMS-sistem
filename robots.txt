@@ -1,0 +1,10 @@
+User-agent: * 
+
+Disallow: /admin/
+Disallow: /classes/
+Disallow: /komponente/
+Disallow: /includes/
+Disallow: /moduli/
+Disallow: /prenosi/
+Disallow: /resources/
+

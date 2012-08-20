@@ -1,0 +1,68 @@
+#galerija {
+	
+}
+
+.album {
+	width:40%;
+	float:left;
+	padding:10px;
+	margin:10px;
+	/*background:#FFF;
+	
+	border-radius: 3em #F5F5F7;
+	
+	-webkit-box-shadow: 1px 2px 4px rgba(0,0,0, .2);
+	-moz-box-shadow: 1px 2px 4px rgba(0,0,0, .2);*/	
+}
+
+.album img {
+	background:#FFF;
+	
+	border: 4px solid #CCC;
+	
+	border-radius: 3em #F5F5F7;
+	
+	-webkit-box-shadow: 1px 2px 4px rgba(0,0,0, .2);
+	-moz-box-shadow: 1px 2px 4px rgba(0,0,0, .2);	
+}
+
+.p_album {
+	width:95%;
+	float:left;
+	margin:3px;
+	padding:10px 0px;
+	
+	/*border-radius: 2em #666;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	*/
+}
+
+.p_album img {
+	background:#FFF;
+	
+	border: 4px solid #CCC;
+	
+	border-radius: 3em #F5F5F7;
+	
+	-webkit-box-shadow: 1px 2px 4px rgba(0,0,0, .2);
+	-moz-box-shadow: 1px 2px 4px rgba(0,0,0, .2);	
+}
+
+.slika {
+	float:left;
+	padding:5px;
+	margin:5px;	
+}
+
+.gtitle {
+	font-size:1.5em;
+	color: #516C00;
+}
+
+.opis {
+	text-align:left;
+	font-size:0.9em;
+	line-height:133%;
+	margin-bottom:0;
+}

@@ -1,0 +1,425 @@
+body {
+	font: normal .8em/1.5em Arial, Helvetica, sans-serif;
+	background: #ebebeb;
+	width: 1000px;
+	margin: 80px auto;
+	color: #666;
+}
+
+a {
+	color: #333;
+}
+
+h1 {
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+	margin:5px;
+}
+
+/* Glavni elementi v adminu */
+#okvir {
+	width:960px;
+	height:100%;
+	padding:10px;
+	background:#FFF;
+	
+	border-radius: 2em #7d7d7d7;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	
+}
+
+#okvirp {
+	width:380px;
+	height:100%;
+	margin:auto auto;
+	padding:10px;
+	background:#FFF;
+	
+	border-radius: 2em #7d7d7d7;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	
+}
+
+#glava {
+	height:70px;
+}
+
+#napaka {
+	display:none;
+	position:absolute;
+	margin: 5px 0px 0px 295px;
+	padding: 10px;
+	background: #7d7d7d url(../images/gradient.png) repeat-x 0 -130px;
+	line-height: 100%;
+
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	
+	vertical-align:middle;
+	width:380px;
+}
+
+#napaka_text {
+	background:url(../images/klicaj.png) no-repeat 10px 5px #FFF;
+	font-size:14px;
+	font-weight:500;
+	color:#7E7E7E;
+	position:relative;
+	margin: 0 auto;
+	padding: 10px 10px 10px 40px;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	
+	vertical-align:middle;
+	width:330px;
+}
+
+#logo {
+	background:url(../images/logo_med.png) left top no-repeat;
+	height:65px;
+	width:650px;
+	float:left;
+	margin-left:5px
+}
+
+#navigacija {
+	width:99%;
+	margin:0px auto 0px auto;
+	padding:5px;
+}
+
+#prijava {
+	vertical-align:middle;
+	margin:10px auto;
+	
+	height: 250px;
+	width: 350px;
+	background:#7d7d7d;
+	
+	border-radius: 2em #666;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	
+}
+
+#pokvir {
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+#vsebina {
+	padding:8px 15px;
+}
+
+#ikone {
+	width:600px;
+	float:left;
+}
+
+#najnovejse {
+	padding:10px;
+	width:310px;
+	float:left;
+}
+
+#moznosti {
+	width:99%;
+	float:left;
+	margin:10px 0px 10px 0px;
+	
+	border-radius: 2em #666;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	
+}
+
+/* Admin detajli */
+.odstrani {
+	background:url(../images/odstrani.png) no-repeat left center;
+	width:33px;
+	height:32px;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.zaporedje {
+	background:url(../images/zaporedje.png) no-repeat left center;
+	width:33px;
+	height:32px;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.dodaj {
+	background:url(../images/dodaj.png) no-repeat left center;
+	width:33px;
+	height:32px;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.naziv {
+	padding:3px 0px 3px 0px;
+	margin:0;
+	color:#145D7B;
+	font-weight:bold;
+	font-size:13px
+}
+
+.ikona {
+	padding:10px;
+	margin:15px 15px 25px 15px;
+	width:100px;
+	height:100px;
+	float:left;
+	
+	text-align:center;
+	cursor:pointer;
+	
+	border-radius: 2em #7d7d7d7;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+
+.ikona:hover {
+	background-color:#eee;
+}
+
+
+#ikone_zg {
+	margin-right:10px	
+}
+
+.ikona_zg {
+	padding:10px;
+	margin:15px 5px 15px 5px;
+	width:30px;
+	height:30px;
+	float:right;
+	
+	text-align:center;
+	cursor:pointer;
+	
+	border-radius: 0.5em #7d7d7d7;
+	
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+.ikona_zg img {
+	border:none;
+}
+
+.ikona_zg:hover {
+	background-color:#eee;
+}
+
+#naziv_sekcije {
+	float:left;
+	margin:7px;
+	padding-left:8px;
+	width:76%
+}
+
+.form_sp {
+	float:left;
+	padding:4px;
+	margin:8px 5px 8px 8px;
+	background-color:#FFF;
+
+	border-radius: 0.5em #7d7d7d7;
+	
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+
+}
+
+.form_sp select {
+	border:none;
+	margin:0px 5px 0px 1px;
+}
+
+.stevilo {
+	float:right;
+	padding:4px;
+	margin:5px 5px 5px 5px;
+	background-color:#FFF;
+
+	border-radius: 0.5em #7d7d7d7;
+	
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+
+/* TABELE */
+
+.glava_na th {
+	padding:5px;
+	background: #7d7d7d url(../images/gradient.png) repeat-x 0 -120px;
+	text-align: center;
+	font-weight:bold;
+	color:#FFF;
+	
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+
+.glava_ta {
+	margin:5px;
+}
+
+.glava_ta th {
+	padding:5px;
+	background-color: #f3f3f3; 
+	border: 1px solid #FFF; 
+	text-align: center;
+	font-weight:bold;
+	cursor:pointer;
+	color:#0B55C4;
+	border-bottom:1px solid #666;
+}
+
+.spodaj_ta td {
+	background-color: #f3f3f3; 
+	text-align: center;
+	font-weight:bold;
+	color:#0B55C4;
+	border-top:1px solid #666;
+}
+
+tr.vrsta td {
+	padding: 5px;
+	border:1px #F3F3F3 solid;
+}
+
+tr.vrsta2 td {
+	background:#eee;
+	padding: 4px;	
+	border:1px #fff solid;
+}
+
+#nitipa {
+	background:url(../images/izberi_tip.jpg);
+	padding:55px 5px 5px 5px;
+	border:1px #F3F3F3 solid;
+	text-align:center;
+	vertical-align:middle;
+	height:110px;
+	width:97%;
+	font-weight:bold;
+}
+#nimodula {
+	background:url(../images/izberi_modul.jpg);
+	padding:55px 5px 5px 5px;
+	border:1px #F3F3F3 solid;
+	text-align:center;
+	vertical-align:middle;
+	height:110px;
+	width:97%;
+	font-weight:bold;
+}
+
+/* OBRAZCI */
+
+.textfield, .dropdown, .textarea {
+	width: 220px;
+	font: normal 1.1em arial,verdana,tahoma,sans-serif;
+	color: #666;
+	margin: 0px 0 0px 0;
+	padding: 9px 14px;
+	background: #f2f2f2;
+	border: 2px solid #d0d0d0;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;  
+	-moz-box-shadow: 4px 4px 4px #ddd;
+	-webkit-box-shadow: 4px 4px 4px #ddd;
+	box-shadow: 4px 4px 4px #ddd;
+}
+
+input:focus, select:focus, .textarea:focus {
+	background: #fff;
+	border: 2px solid #ddd;
+	-moz-box-shadow: 2px 1px 1px #ddd;
+	-webkit-box-shadow: 2px 1px 1px #ddd;
+	box-shadow: 2px 1px 1px #ddd;
+	outline: none;
+}
+
+.oznaka {
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+}
+
+.btn {
+	font: bold 1.1em arial,verdana,tahoma,sans-serif;
+	color: #000;
+	text-decoration: none;
+	margin: 0;
+	padding: 9px 11px 8px 11px;
+	background: #f2f2f2 url(../images/submit-backgr.png) repeat-x;
+	border: 2px solid #d0d0d0;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;  
+	-moz-box-shadow: 4px 4px 4px #ddd;
+	-webkit-box-shadow: 4px 4px 4px #ddd;
+	box-shadow: 4px 4px 4px #ddd;  
+}
+
+.btn:hover, .btn:focus {
+	color: #fff;
+	background: #f2f2f2 url(../images/submit-hover-backgr.png) repeat-x; 
+	border: 2px solid #888;
+	-moz-box-shadow: 2px 2px 2px #ddd;
+	-webkit-box-shadow: 2px 2px 2px #ddd;
+	box-shadow: 2px 2px 2px #ddd;  
+}

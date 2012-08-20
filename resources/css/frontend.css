@@ -1,0 +1,121 @@
+#moznosti {
+	width:99%;
+	float:left;
+	margin:10px 0px 10px 0px;
+	
+	border-radius: 2em #666;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);	
+}
+
+/* Admin detajli */
+.odstrani {
+	background:url(../images/odstrani.png) no-repeat left center;
+	width:33px;
+	height:32px;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.dodaj {
+	background:url(../images/dodaj.png) no-repeat left center;
+	width:33px;
+	height:32px;
+	border:none;
+	margin:0;
+	padding:0;
+	cursor:pointer;
+}
+
+.naziv {
+	padding:3px 0px 3px 0px;
+	margin:0;
+	color:#6E8D3D;
+	font-weight:bold;
+	font-size:14px
+}
+
+.ikona {
+	padding:10px;
+	margin:15px 15px 25px 15px;
+	width:80px;
+	height:80px;
+	float:left;
+	
+	text-align:center;
+	cursor:pointer;
+	
+	border-radius: 2em #7d7d7d7;
+	
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+
+.ikona:hover {
+	background-color:#eee;
+}
+
+#ikone_zg {
+	margin-right:10px	
+}
+
+.ikona_zg {
+	padding:10px;
+	margin:15px 5px 15px 5px;
+	width:30px;
+	height:30px;
+	float:right;
+	
+	text-align:center;
+	cursor:pointer;
+	
+	border-radius: 0.5em #7d7d7d7;
+	
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+.ikona_zg img {
+	border:none;
+}
+
+.ikona_zg:hover {
+	background-color:#eee;
+}
+
+#naziv_sekcije {
+	float:left;
+	margin:7px;
+	padding-left:8px;
+	width:55%
+}
+
+tr.vrsta td {
+	padding: 5px;
+	border:1px #F3F3F3 solid;
+}
+
+tr.vrsta2 td {
+	background:#eee;
+	padding: 4px;	
+	border:1px #fff solid;
+}
+
+.glava_ta th {
+	padding:5px;
+	background-color: #f3f3f3; 
+	border: 1px solid #FFF; 
+	text-align: center;
+	font-weight:bold;
+	cursor:pointer;
+	color:#0B55C4;
+	border-bottom:1px solid #666;
+}

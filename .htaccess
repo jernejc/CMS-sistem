@@ -1,0 +1,16 @@
+## Treba vključit "RewriteEngine" yo
+RewriteEngine on
+
+## Datoteka za 404 napako
+ErrorDocument 404 /includes/404.html
+
+## Spodnji del poskrbi za lepe povezave
+#RewriteCond %{REQUEST_FILENAME} -f [OR]
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteCond %{REQUEST_URI} !^/index.php
+#RewriteRule .* - [L]
+#RewriteRule ^(.*)$ http://www.cms-sistem.com
+
+# 301 redirect za brez 'www.'
+RewriteCond %{HTTP_HOST} ^cms-sistem.com$ [NC]
+RewriteRule ^(.*)$ http://www.cms-sistem.com/$1 [R=301,L]
